@@ -176,7 +176,7 @@ def team_names
   # array << game_hash[:home][:team_name]
   # array
   
-  game_hash.map do |x, team_data|
+  game_hash.map do |team_data|
   team_data[:team_name]
   end
 end
