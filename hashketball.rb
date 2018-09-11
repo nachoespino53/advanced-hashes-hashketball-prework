@@ -121,7 +121,6 @@ end
 
 def players_data
   players = game_hash.map do |x, value|
-    binding.pry
     value[:players]
   end
   players.flatten
